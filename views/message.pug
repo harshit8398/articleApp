@@ -1,0 +1,6 @@
+//
+   Created by Harshit Gupta on 27-09-2017.
+.messages
+    each type in Object.keys(messages)
+        each message in messages[type]
+            div(class='alert alert-'+type) #{message}
